@@ -1,5 +1,7 @@
 package server
 
+import "fmt"
+
 // init service
 func Init() {
 	// start server
@@ -9,4 +11,8 @@ func Init() {
 // start server
 func startServer() {
 
+}
+
+func stopIO() {
+	fmt.Println("closing all I/Os")
 }
